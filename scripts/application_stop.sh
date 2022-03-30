@@ -1,3 +1,4 @@
-#!/usr/bin/env
-set -e
-npm stop /var/nodejs/CodeDeployDemo/index.js
+#!/bin/bash
+#Stopping existing node servers
+echo "Stopping any existing node servers"
+pkill node
